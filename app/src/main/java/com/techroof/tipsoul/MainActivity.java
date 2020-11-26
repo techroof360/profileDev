@@ -304,6 +304,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(new Intent(MainActivity.this, MainActivity.class));
                 break;
             case R.id.user_import:
+                Intent servicesIntent = new Intent(MainActivity.this, ServicesActivity.class);
+                startActivity(servicesIntent);
+                break;
             case R.id.user_govt_sector:
                 break;
             case R.id.user_public_posts:
