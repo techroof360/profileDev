@@ -19,23 +19,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_margin="5dp"
+                android:layout_margin="8dp"
                 >
                 <ImageView
                     android:layout_width="54dp"
                     android:layout_height="54dp"
-                    android:src="@drawable/level_globe"
+                    android:src="@drawable/system_software"
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
+                    android:layout_gravity="center"
                     android:layout_marginStart="8dp"
                     >
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Master Class Society"
+                        android:text="Software Development"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="18sp"
@@ -43,8 +44,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
+                        android:text="Website Builders, WordPress, CMS"
                         android:textSize="14sp"
                         />
                 </LinearLayout>
@@ -60,12 +60,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_margin="5dp"
+                android:layout_margin="8dp"
                 >
                 <ImageView
                     android:layout_width="54dp"
                     android:layout_height="54dp"
-                    android:src="@drawable/level_globe"
+                    android:src="@drawable/graphic"
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -76,7 +76,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Master Class Society"
+                        android:text="Graphics &amp; Design"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="18sp"
@@ -84,8 +84,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
+                        android:text="Logo, Web Graphics, Animations, Brand Identity, Art &amp; Illustration"
                         android:textSize="14sp"
                         />
                 </LinearLayout>
@@ -101,14 +100,55 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_margin="5dp"
+                android:layout_margin="8dp"
                 >
 
                 <ImageView
                     android:layout_width="54dp"
                     android:layout_height="54dp"
-                    android:src="@drawable/level_globe" />
-
+                    android:src="@drawable/marketing"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Digital Marketing"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Social Media Marketing, SEO, MLM"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="8dp"
+                >
+                <ImageView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:src="@drawable/writing"
+                    />
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -118,7 +158,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Master Class Society"
+                        android:text="Teaching &amp; Translation"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="18sp"
@@ -126,12 +166,252 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
+                        android:text="O to A level, Article &amp; Blog Posts, Translation"
                         android:textSize="14sp"
                         />
                 </LinearLayout>
             </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="8dp"
+                >
+                <ImageView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:src="@drawable/gaming"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gaming &amp; Streaming"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graphics for Streamers, Animation for Games"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="8dp"
+                >
+                <ImageView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:src="@drawable/m_research"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Market Research"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Marketing Strategy, Market Analysis, Web Analytics"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="8dp"
+                >
+                <ImageView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:src="@drawable/architecture"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Architecture &amp; 3D Modeling"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Architecture &amp; Interior Design, Industrial &amp; Products Design, LandScape Design"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="8dp"
+                >
+                <ImageView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:src="@drawable/data_mining"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Data Mining &amp; Consulting"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Databases, Data Analysis &amp; Reports"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="8dp"
+                >
+                <ImageView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:src="@drawable/business"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Business"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Virtual Assistant, Data Entries &amp; Operatores"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="8dp"
+                >
+                <ImageView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:src="@drawable/video"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Music &amp; Videos Animation"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Voice Over, Producer &amp; Composer, Video Editing"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!--
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -286,48 +566,6 @@
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="18sp"
-                        />id:textSize="20sp"
-                    />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textSize="14sp"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/gray"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="5dp"
-                >
-                <ImageView
-                    android:layout_width="54dp"
-                    android:layout_height="54dp"
-                    android:src="@drawable/level_globe"
-                    />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_marginStart="8dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -379,252 +617,7 @@
                         />
                 </LinearLayout>
             </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/gray"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="5dp"
-                >
-                <ImageView
-                    android:layout_width="54dp"
-                    android:layout_height="54dp"
-                    android:src="@drawable/level_globe"
-                    />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_marginStart="8dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textSize="14sp"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/gray"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="5dp"
-                >
-                <ImageView
-                    android:layout_width="54dp"
-                    android:layout_height="54dp"
-                    android:src="@drawable/level_globe"
-                    />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_marginStart="8dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textSize="14sp"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/gray"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="5dp"
-                >
-                <ImageView
-                    android:layout_width="54dp"
-                    android:layout_height="54dp"
-                    android:src="@drawable/level_globe"
-                    />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_marginStart="8dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textSize="14sp"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/gray"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="5dp"
-                >
-                <ImageView
-                    android:layout_width="54dp"
-                    android:layout_height="54dp"
-                    android:src="@drawable/level_globe"
-                    />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_marginStart="8dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textSize="14sp"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/gray"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="5dp"
-                >
-                <ImageView
-                    android:layout_width="54dp"
-                    android:layout_height="54dp"
-                    android:src="@drawable/level_globe"
-                    />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_marginStart="8dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textSize="14sp"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/gray"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="5dp"
-                >
-                <ImageView
-                    android:layout_width="54dp"
-                    android:layout_height="54dp"
-                    android:src="@drawable/level_globe"
-                    />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_marginStart="8dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Master Class Society"
-                        android:textColor="@color/black"
-                        android:textSize="14sp"
-                        />
-                </LinearLayout>
-            </LinearLayout>
+            -->
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"

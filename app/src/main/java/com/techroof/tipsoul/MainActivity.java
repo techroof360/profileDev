@@ -308,6 +308,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(servicesIntent);
                 break;
             case R.id.user_govt_sector:
+                Intent outSourceIntent = new Intent(MainActivity.this, OutSourcingActivity.class);
+                startActivity(outSourceIntent);
                 break;
             case R.id.user_public_posts:
                 Intent portfolioIntent = new Intent(MainActivity.this, PortfoliosActivity.class);

@@ -63,7 +63,6 @@ public class ChatActivity extends AppCompatActivity {
     private TextView chatUserName;
     private TextView chatUserActiveStatus, ChatConnectionTV;
     private CircleImageView chatUserImageView;
-
     private DatabaseReference rootReference;
 
     // sending message
